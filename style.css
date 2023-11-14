@@ -120,6 +120,25 @@ nav {
   font-size: 2rem;
 }
 
+.learn-more::after {
+  content: "";
+  width: 9rem;
+  height: 0.6rem;
+  display: block;
+  position: absolute;
+  transform: translateY(-0.5rem);
+  z-index: -2;
+  border-radius: 5rem;
+}
+
+.grid-content .transform-color::after {
+  background-color: hsl(51, 100%, 49%);
+}
+
+.grid-content .standout-color::after {
+  background-color: hsl(7, 99%, 70%);
+}
+
 .grid-img img {
   width: 100%;
 }
@@ -229,7 +248,7 @@ nav {
 }
 
 footer {
-  transform: translateY(-0.5rem);
+  transform: translateY(-0.499rem);
   background-color: hsl(168, 34%, 41%);
   display: flex;
   flex-direction: column;
