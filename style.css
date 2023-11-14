@@ -46,6 +46,13 @@ nav {
   border-radius: 1.9rem;
   padding: 0.8rem 1.5rem;
   text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.contact:hover {
+  background-color: hsl(200, 100%, 70%);
+  color: hsl(0, 0%, 100%);
 }
 
 .container {
@@ -118,17 +125,20 @@ nav {
   font-family: "Fraunces", sans-serif;
   font-weight: 700;
   font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.4s;
 }
 
 .learn-more::after {
   content: "";
-  width: 9rem;
+  width: 10rem;
   height: 0.6rem;
   display: block;
   position: absolute;
   transform: translateY(-0.5rem);
   z-index: -2;
   border-radius: 5rem;
+  transition: all 0.4s;
 }
 
 .grid-content .transform-color::after {
@@ -273,12 +283,19 @@ footer {
   font-weight: 600;
   font-size: 2rem;
   color: hsl(167, 40%, 24%);
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.foot-list:hover {
+  color: hsl(0, 0%, 100%);
 }
 
 .socials {
   display: flex;
   gap: 3rem;
   padding-bottom: 2rem;
+  cursor: pointer;
 }
 
 .attribution {
