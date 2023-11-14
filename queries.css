@@ -1,0 +1,152 @@
+@media only screen and (max-width: 1250px) {
+  nav,
+  .home,
+  .testimonials {
+    width: 100rem;
+    max-width: 90%;
+  }
+
+  .arrow {
+    transform: translateY(-33rem);
+  }
+
+  .learn-more {
+    transform: translateX(0);
+    padding-bottom: 2rem;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .content-paragraph {
+    padding-top: 2rem;
+    padding-left: 27rem;
+    padding-right: 27rem;
+  }
+
+  .author-name {
+    padding-top: 1rem;
+  }
+
+  .more-imgs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .asp ul {
+    gap: 5rem;
+  }
+
+  .socials {
+    gap: 4rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .ham-icon {
+    display: block;
+  }
+
+  .first-content {
+    grid-row: 2/3;
+  }
+
+  .photo {
+    transform: translateY(-12rem);
+  }
+
+  .grid-content-img p {
+    transform: translateY(-35rem);
+  }
+}
+
+@media only screen and (max-width: 1104px) {
+  .arrow {
+    transform: translateY(-30rem);
+  }
+
+  .home-paragraph {
+    transform: translateY(-50rem);
+  }
+
+  .grid-content {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .content-paragraph {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .arrow {
+    transform: translateY(-25rem);
+  }
+
+  .home-paragraph {
+    transform: translateY(-45rem);
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 854px) {
+  .arrow {
+    transform: translateY(-22rem);
+  }
+
+  .home-paragraph {
+    transform: translateY(-41rem);
+    font-size: 4rem;
+  }
+
+  .grid-content-img p {
+    transform: translateY(-30rem);
+  }
+
+  .photo {
+    transform: translateY(-14rem);
+  }
+
+  .head {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 632px) {
+  .grid-content-img p {
+    gap: 0.2rem;
+    transform: translateY(-30rem);
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .paragraphs {
+    font-size: 1.4rem;
+  }
+
+  .img-header img {
+    transform: translateY(-1rem);
+  }
+
+  .arrow {
+    transform: translateY(-19rem);
+  }
+
+  .home-paragraph {
+    transform: translateY(-38rem);
+    font-size: 3rem;
+  }
+}

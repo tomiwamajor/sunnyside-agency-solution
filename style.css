@@ -55,6 +55,10 @@ nav {
   color: hsl(0, 0%, 100%);
 }
 
+.ham-icon {
+  display: none;
+}
+
 .container {
   background-color: hsl(200, 100%, 62%);
 }
@@ -74,7 +78,6 @@ nav {
   letter-spacing: 1rem;
   text-transform: uppercase;
   color: hsl(0, 0%, 100%);
-  color: red;
   transform: translateY(-60rem);
 }
 
@@ -258,8 +261,11 @@ nav {
 }
 
 footer {
-  transform: translateY(-0.499rem);
   background-color: hsl(168, 34%, 41%);
+  transform: translateY(-0.14rem);
+}
+
+.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
