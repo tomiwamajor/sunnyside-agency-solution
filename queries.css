@@ -172,7 +172,7 @@
   }
 }
 
-@media only screen and (max-width: 352px) {
+@media only screen and (max-width: 456px) {
   .img-header img {
     transform: translateY(-1rem);
   }
