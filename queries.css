@@ -12,6 +12,7 @@
 
   .learn-more {
     transform: translateX(0);
+    font-size: 1.4rem;
     padding-bottom: 2rem;
   }
 
@@ -134,7 +135,7 @@
 @media only screen and (max-width: 632px) {
   .grid-content-img p {
     gap: 0.2rem;
-    transform: translateY(-10rem);
+    transform: translateY(-11rem);
   }
 
   .heading {
@@ -156,5 +157,17 @@
   .home-paragraph {
     transform: translateY(-38rem);
     font-size: 3rem;
+  }
+
+  .asp ul {
+    gap: 1rem;
+  }
+
+  .socials {
+    gap: 2rem;
+  }
+
+  .foot-list {
+    font-size: 1.4rem;
   }
 }
