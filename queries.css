@@ -60,17 +60,23 @@
   }
 
   .photo {
-    transform: translateY(-12rem);
+    /* transform: translateY(-12rem); */
   }
 
   .grid-content-img p {
-    transform: translateY(-35rem);
+    transform: translateY(-18rem);
   }
 }
 
 @media only screen and (max-width: 1104px) {
   .arrow {
     transform: translateY(-30rem);
+  }
+
+  .grid-content-img p {
+    transform: translateY(-10rem);
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .home-paragraph {
@@ -111,11 +117,13 @@
   }
 
   .grid-content-img p {
-    transform: translateY(-30rem);
+    transform: translateY(-14rem);
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .photo {
-    transform: translateY(-14rem);
+    /* transform: translateY(-14rem); */
   }
 
   .head {
@@ -126,7 +134,7 @@
 @media only screen and (max-width: 632px) {
   .grid-content-img p {
     gap: 0.2rem;
-    transform: translateY(-30rem);
+    transform: translateY(-10rem);
   }
 
   .heading {
