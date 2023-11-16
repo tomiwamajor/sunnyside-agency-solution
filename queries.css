@@ -193,4 +193,8 @@
   .photo {
     transform: translateY(-8rem);
   }
+
+  .grid-content-img p {
+    transform: translateY(-17rem);
+  }
 }
